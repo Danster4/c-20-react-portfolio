@@ -1,24 +1,23 @@
-import logo from './assets/images/logos/neon-bar-circular.png';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import Navigation from './components/Navigation';
+import Portfolio from './components/Portfolio';
+import About from './components/About';
+import Footer from './components/Footer';
+import Contact from './components/Contact';
+import './index.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Test deployment on GitHub Pages. Please check back later.
-        </p>
-        <a
-          className="App-link"
-          href="https://pngtree.com/so/Neon"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Thanks PNGTree.com for the image!
-        </a>
-      </header>
-    </div>
+    <div className="bg-gray-900">
+      <Header />
+      <main>
+        <Portfolio />
+        <About />
+        <Contact />
+      </main>
+      <Footer />
+    </div> 
   );
 }
 
