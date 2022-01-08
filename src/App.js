@@ -1,22 +1,19 @@
-import React from 'react';
 import Header from './components/Header';
-import Navigation from './components/Navigation';
-import Portfolio from './components/Portfolio';
-import About from './components/About';
-import Footer from './components/Footer';
-import Contact from './components/Contact';
-import './index.css';
+import logo from './assets/images/logos/neon-bar-circular.png';
+import './App.css';
 
 function App() {
   return (
-    <div className="bg-gray-900">
+    <div className="App">
       <Header />
+      <header className='App-header'>
+        <img src={logo} className="App-logo" alt="logo" />
+      </header>
+      
       <main>
-        <Portfolio />
-        <About />
-        <Contact />
+        
       </main>
-      <Footer />
+     
     </div> 
   );
 }
