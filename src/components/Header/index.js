@@ -5,10 +5,12 @@ import '../../App.css';
 import '../../index.css';
 
 
-function Header() {
+function Header(props) {
+  const { currentPage, handlePageChange } = props;
+
   return(
     <header>
-      <Navigation />
+      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
     </header>
   
   )
