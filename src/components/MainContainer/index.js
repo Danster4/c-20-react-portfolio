@@ -11,10 +11,7 @@ function MainContainer(props) {
   const { currentPage, renderPage } = props;
 
   return (
-    <div>
-      {/* Pass the state value and the setter as props to NavTabs */}
-      
-      {/* Call the renderPage function passing in the currentPage */}
+    <div className='mainContainer flex bg-slate-800'>
       <div>{renderPage(currentPage)}</div>
     </div>
   );

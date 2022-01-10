@@ -31,9 +31,9 @@ function App() {
       <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
       <MainContainer renderPage={renderPage} currentPage={currentPage} handlePageChange={handlePageChange}/>
         
-      <section className='App-header'>
+      {/* <section className='App-header'>
         <img src={logo} className="App-logo" alt="logo" />
-      </section>
+      </section> */}
       
       <Footer />
       
