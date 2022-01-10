@@ -5,7 +5,7 @@ import design from '../../assets/images/design.png';
 
 function About() {
 return (
-  <div className='bg-slate-800'>
+  <div className='bg-green-800'>
     <div className='lg:[top-gap]'>
 
     </div>
@@ -24,18 +24,27 @@ return (
       
 
 
-    <section class="pt-[90px] sm:pt-[90px] md:pt-[90px] lg:pt-[90px] pb-10 lg:pb-20 bg-[#F3F4F6]">
-      <div class="grid flex justify-center">
+    <section class="pt-[90px] sm:pt-[90px] md:pt-[90px] lg:pt-[90px] pb-10 lg:pb-20 bg-[#F3F4F6] gap-2">
+      <div class="gap-2 grid flex justify-center place-content center">
         <h1 className="items-center font-semibold text-black text-3xl mb-6 mx-3">
           Hello, I'm Danny Urkov. Nice to meet you!
         </h1>
-        
-        <h2 className="items-center text-black text-lg mb-4 mx-3 place-content-center">
-          I began my journey studying filmmaking, psychology, and mental health/therapeutic training. 
-          Now on a new adventure, I strive to combine old passions with new. I try my best each day 
-          to design and develop websites and applications that have the opportunity to make the world a better place,
-          by sharing love, positivity, and hope. 
-        </h2>
+        <div class="gap-2 flex justify-center place-content-center">
+          <div className='hidden lg:w-1/4 xl:w-1/4'>
+            <br />
+          </div>
+
+          <h2 className="lg:w-1/2 xl:w-1/2 gap-2 justify-center place-content-center items-center text-black text-lg mb-4 mx-3">
+            I began my journey studying filmmaking, psychology, and mental health/therapeutic training. 
+            Now on a new adventure, I strive to combine old passions with new. I try my best each day 
+            to design and develop websites and applications that have the opportunity to make the world a better place,
+            by sharing love, positivity, and hope. 
+          </h2>
+
+          <div className='hidden lg:w-1/4 xl:w-1/4'>
+            <br />
+          </div>
+        </div>
         <div class="flex flex-wrap mx-4 mt-10">
           
           <div class="w-full md:w-1/2 xl:w-1/3 px-4">
@@ -82,34 +91,32 @@ return (
                           mb-4
                           block
                           ">
-                      <li className='w-1/2 overflow-hidden'>
+                      <li className='w-1/2 lg:w-1/3 xl:w-1/3 overflow-hidden'>
                         React.js
                       </li>
-                      <li className='w-1/2 overflow-hidden'>
+                      <li className='w-1/2 lg:w-1/3 xl:w-1/3 overflow-hidden'>
                         Node.js                      
                         </li>
-                      <li className='w-1/2 overflow-hidden'>
+                      <li className='w-1/2 lg:w-1/3 xl:w-1/3 overflow-hidden'>
                         Express.js
                       </li>
-                      <li className='w-1/2 overflow-hidden'>
+                      <li className='w-1/2 lg:w-1/3 xl:w-1/3 overflow-hidden'>
                         MongoDB
                       </li>
-                      <li className='w-1/2 overflow-hidden'>
+                      <li className='w-1/2 lg:w-1/3 xl:w-1/3 overflow-hidden'>
                         Handlebars.js
                       </li>
-                      <li className='w-1/2 overflow-hidden'>
+                      <li className='w-1/2 lg:w-1/3 xl:w-1/3 overflow-hidden'>
                         WordPress
                       </li>
-                      <li className='w-1/2 overflow-hidden'>
+                      <li className='w-1/2 lg:w-1/3 xl:w-1/3 overflow-hidden'>
                         GitHub
                       </li>
-                      <li className='w-1/2 overflow-hidden'>
+                      <li className='w-1/2 lg:w-1/3 xl:w-1/3 overflow-hidden'>
                         Insomnia
                       </li>
-                      <li className='w-1/2 overflow-hidden'>
-                        VS Code
-                      </li>
-                      <li className='w-1/2 overflow-hidden'>
+                      
+                      <li className='w-1/2 lg:w-1/3 xl:w-1/3 overflow-hidden'>
                         Jest
                       </li>
                       
@@ -122,9 +129,9 @@ return (
                       px-7
                       border border-[#E5E7EB]
                       rounded-full
-                      text-base text-body-color
+                      text-green
                       font-medium
-                      hover:border-primary hover:bg-primary hover:text-lime-400
+                      hover:border-lime-400 hover:bg-green-800 hover:text-white
                       transition
                       "
                       >
@@ -196,9 +203,9 @@ return (
                       px-7
                       border border-[#E5E7EB]
                       rounded-full
-                      text-base text-body-color
+                      text-green
                       font-medium
-                      hover:border-primary hover:bg-primary hover:text-white
+                      hover:border-lime-400 hover:bg-green-800 hover:text-white
                       transition
                       "
                       >
@@ -270,10 +277,11 @@ return (
                       px-7
                       border border-[#E5E7EB]
                       rounded-full
-                      text-base text-body-color
+                      text-green
                       font-medium
-                      hover:border-primary hover:bg-primary hover:text-white
+                      hover:border-lime-400 hover:bg-green-800 hover:text-white
                       transition
+                      duration-900
                       "
                       >
                     View Designs
@@ -285,7 +293,11 @@ return (
       </div>
     </section>
 {/* Cards Section End */}
-    
+    {/* <img src={mountains} 
+    alt="mountains image animated"
+    className='w-full'
+    z-index="0"
+     /> */}
     
   </div>
 )

@@ -29,8 +29,8 @@ function closeNav() {
     <nav className="flex items-center justify-between flex-wrap bg-slate-800 p-6">
       <div className="flex items-left justify-between flex-shrink-0 text-white hover:text-lime-400 mr-6">
         <a href="/" className="flex">
-          <img src={logo3} alt="logo" width="54"/>
-          <span className="font-semibold text-xl ">Danny Urkov</span>
+          <img src={logo3} alt="logo" width="54" className="pl-2"/>
+          <span className="pl-2 font-semibold text-xl ">Danny Urkov</span>
         </a> 
       </div>
 

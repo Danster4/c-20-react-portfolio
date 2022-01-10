@@ -9,7 +9,7 @@ function Header(props) {
   const { currentPage, handlePageChange } = props;
 
   return(
-    <header>
+    <header className=''>
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
     </header>
   
