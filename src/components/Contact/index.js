@@ -34,28 +34,115 @@ function Contact() {
   }
 
   return (
-    <section>
-      <h1 data-testid="h1tag" >Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor='name'>Name:</label>
-          <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
-        </div>
-        <div>
-          <label htmlFor='email'>Email address:</label>
-          <input type="email" defaultValue={email} onBlur={handleChange} name="email" />
-        </div>
-        <div>
-          <label htmlFor='message'>Message:</label>
-          <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
-        </div>
-        {errorMessage && (
+    <section className='bg-slate-800 flex grid'>
+      
+    
+    <div className="bg-slate-800 grid gap-3 items-center flex place-content-center justify-center">
+      <h1 className="items-center font-semibold text-white lg:text-5xl md:text-4xl sm:text-4xl text-3xl mt-8 mb-2 mx-3">
+        Contact Me 
+      </h1>
+      
+      <h2 className="grid flex gap-3 text-white text-xl mx-3">
+        If you are interested in collaborating together on a project, or just want to say hi, send me a message using the contact form below. 
+        <br /> <br className='sm:hidden md:hidden lg:hidden xl:hidden'/> 
+        Thanks for reaching out and I'll get back to you as soon as I can!
+      </h2>
+      
+    
+
+
+  <div class="w-full md:w-96 md:max-w-full mx-auto">
+  
+  <div class="p-6">
+    
+    <form id="contact-form" onSubmit={handleSubmit}>
+      <label class="block mb-6">
+        <span class="flex justify-start text-white">Full name</span>
+        <input
+          type="text"
+          name="name"
+          defaultValue={name} 
+          onBlur={handleChange}
+          class="
+            block
+            w-full
+            mt-1
+            border-gray-300
+            rounded-md
+            shadow-sm
+            focus:border-indigo-300
+            focus:ring
+            focus:ring-indigo-200
+            focus:ring-opacity-50
+          "
+          placeholder="Jeremy Bergman"
+        />
+      </label>
+      <label class="block mb-6">
+        <span class="flex justify-start text-white">Email address</span>
+        <input
+          name="email"
+          type="email"
+          defaultValue={email} 
+          onBlur={handleChange}
+          class="
+            block
+            w-full
+            mt-1
+            border-gray-300
+            rounded-md
+            shadow-sm
+            focus:border-indigo-300
+            focus:ring
+            focus:ring-indigo-200
+            focus:ring-opacity-50
+          "
+          placeholder="j.bergman@example.com"
+          required
+        />
+      </label>
+      <label class="block mb-6">
+        <span class="flex justify-start text-white">Message</span>
+        <textarea 
+          name="message"
+          defaultValue={message} 
+          onBlur={handleChange}
+          className="
+            block
+            w-full
+            mt-1
+            border-gray-300
+            rounded-md
+            shadow-sm
+            focus:border-indigo-300
+            focus:ring
+            focus:ring-indigo-200
+            focus:ring-opacity-50
+          "
+          rows="3"
+          placeholder="Message goes here!"
+        ></textarea>
+      </label>
+      {errorMessage && (
           <div>
-            <p className="error-text">{errorMessage}</p>
+            <p className="error-text text-white mb-4">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" type="submit">Submit</button>
-      </form>
+      <div class="mb-6">
+        <button 
+          data-testid="button" 
+          className="inline-block py-2 px-7 border border-[#E5E7EB] rounded-full text-base text-white font-medium hover:border-primary hover:bg-primary hover:text-lime-400 transition" 
+          type="submit">
+          Send ➟
+        </button>
+      </div>
+      
+    </form>
+  </div>
+</div>
+
+    </div>
+      
     </section>
   );
 }

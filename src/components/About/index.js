@@ -1,4 +1,7 @@
 import profilePicCircle from '../../assets/images/profile-pic-circle.png'
+import code from '../../assets/images/code.png';
+import film from '../../assets/images/film-slate.png';
+import design from '../../assets/images/design.png';
 
 function About() {
 return (
@@ -8,7 +11,7 @@ return (
     </div>
     <div className="bg-slate-800 grid grid-rows-1 gap-3 items-center flex justify-center">
       <h1 className="items-center font-semibold text-white lg:text-5xl md:text-4xl sm:text-4xl text-3xl mt-8 mb-2 mx-3">
-        Full-Stack Web Developer, <br className='sm:hidden md:hidden lg:hidden xl:hidden'/>Designer & <br className='md:hidden lg:hidden xl:hidden'/>Filmmaker 
+        Full-Stack <br className='sm:hidden md:hidden lg:hidden xl:hidden'/> Web Developer, <br className='sm:hidden md:hidden lg:hidden xl:hidden'/>Designer & <br className='md:hidden lg:hidden xl:hidden'/>Filmmaker 
       </h1>
       
       <h2 className="items-center text-white text-xl mx-3">
@@ -22,7 +25,7 @@ return (
 
 
     <section class="pt-[90px] sm:pt-[90px] md:pt-[90px] lg:pt-[90px] pb-10 lg:pb-20 bg-[#F3F4F6]">
-      <div class="grid flex place-content-center justify-center">
+      <div class="grid flex justify-center">
         <h1 className="items-center font-semibold text-black text-3xl mb-6 mx-3">
           Hello, I'm Danny Urkov. Nice to meet you!
         </h1>
@@ -36,11 +39,11 @@ return (
         <div class="flex flex-wrap mx-4 mt-10">
           
           <div class="w-full md:w-1/2 xl:w-1/3 px-4">
-              <div class="bg-white rounded-lg overflow-hidden mb-10">
+              <div class="pt-10 bg-white rounded-lg overflow-hidden flex flex-wrap justify-center items-center mb-10">
                 <img
-                    src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-01.jpg"
+                    src={code}
                     alt="image"
-                    class="w-full"
+                    class="w-1/3"
                     />
                 <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                     <h3>
@@ -63,8 +66,7 @@ return (
                       </a>
                     </h3>
                     <p class="text-base text-body-color leading-relaxed mb-7">
-                      Lorem ipsum dolor sit amet pretium consectetur adipiscing
-                      elit. Lorem consectetur adipiscing elit.
+                      <strong><em>MERN</em></strong> stack and WordPress <br /> HTML5, CSS3, JavaScript, jQuery, SQL
                     </p>
                     <h4 className="
                           font-semibold
@@ -72,29 +74,45 @@ return (
                           mb-4
                           block
                           ">
-                      Languages I Speak
+                      Dev Tools
                     </h4>
                     <ul className="
-                          
+                          flex flex-wrap overflow-hidden
                           text-dark text-md
                           mb-4
                           block
                           ">
-                      <li>
-                        HTML
+                      <li className='w-1/2 overflow-hidden'>
+                        React.js
                       </li>
-                      <li>
-                        CSS                      
+                      <li className='w-1/2 overflow-hidden'>
+                        Node.js                      
                         </li>
-                      <li>
-                        JavaScript
+                      <li className='w-1/2 overflow-hidden'>
+                        Express.js
                       </li>
-                      <li>
-                        jQuery
+                      <li className='w-1/2 overflow-hidden'>
+                        MongoDB
                       </li>
-                      <li>
-                        SQL
+                      <li className='w-1/2 overflow-hidden'>
+                        Handlebars.js
                       </li>
+                      <li className='w-1/2 overflow-hidden'>
+                        WordPress
+                      </li>
+                      <li className='w-1/2 overflow-hidden'>
+                        GitHub
+                      </li>
+                      <li className='w-1/2 overflow-hidden'>
+                        Insomnia
+                      </li>
+                      <li className='w-1/2 overflow-hidden'>
+                        VS Code
+                      </li>
+                      <li className='w-1/2 overflow-hidden'>
+                        Jest
+                      </li>
+                      
                     </ul>
                     <a
                       href="javascript:void(0)"
@@ -116,11 +134,11 @@ return (
               </div>
           </div>
           <div class="w-full md:w-1/2 xl:w-1/3 px-4">
-              <div class="bg-white rounded-lg overflow-hidden mb-10">
+              <div class="pt-10 bg-white rounded-lg overflow-hidden flex flex-wrap justify-center items-center mb-10">
                 <img
-                    src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-02.jpg"
+                    src={film}
                     alt="image"
-                    class="w-full"
+                    class="w-1/3"
                     />
                 <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                     <h3>
@@ -167,7 +185,7 @@ return (
                         Final Cut Pro                      
                       </li>
                       <li>
-                        Adobe Illustrator
+                        Pro Tools
                       </li>
                     </ul>
                     <a
@@ -190,11 +208,11 @@ return (
               </div>
           </div>
           <div class="w-full md:w-1/2 xl:w-1/3 px-4">
-              <div class="bg-white rounded-lg overflow-hidden mb-10">
+              <div class="pt-10 bg-white rounded-lg overflow-hidden flex flex-wrap justify-center items-center mb-10">
                 <img
-                    src="https://cdn.tailgrids.com/1.0/assets/images/cards/card-01/image-03.jpg"
+                    src={design}
                     alt="image"
-                    class="w-full"
+                    class="w-1/3"
                     />
                 <div class="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                     <h3>
