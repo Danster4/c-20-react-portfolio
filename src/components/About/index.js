@@ -8,7 +8,7 @@ return (
     </div>
     <div className="bg-slate-800 grid grid-rows-1 gap-3 items-center flex justify-center">
       <h1 className="items-center font-semibold text-white lg:text-5xl md:text-4xl sm:text-4xl text-3xl mt-8 mb-2 mx-3">
-        Web Developer, <br className='sm:hidden md:hidden lg:hidden xl:hidden'/> UI/UX Designer &<br className='md:hidden lg:hidden xl:hidden'/>Filmmaker 
+        Full-Stack Web Developer, <br className='sm:hidden md:hidden lg:hidden xl:hidden'/>Designer & <br className='md:hidden lg:hidden xl:hidden'/>Filmmaker 
       </h1>
       
       <h2 className="items-center text-white text-xl mx-3">
@@ -59,13 +59,43 @@ return (
                           hover:text-primary
                           "
                           >
-                      50+ Best creative website themes & templates
+                      Full-Stack Web Developer
                       </a>
                     </h3>
                     <p class="text-base text-body-color leading-relaxed mb-7">
                       Lorem ipsum dolor sit amet pretium consectetur adipiscing
                       elit. Lorem consectetur adipiscing elit.
                     </p>
+                    <h4 className="
+                          font-semibold
+                          text-dark text-lg
+                          mb-4
+                          block
+                          ">
+                      Languages I Speak
+                    </h4>
+                    <ul className="
+                          
+                          text-dark text-md
+                          mb-4
+                          block
+                          ">
+                      <li>
+                        HTML
+                      </li>
+                      <li>
+                        CSS                      
+                        </li>
+                      <li>
+                        JavaScript
+                      </li>
+                      <li>
+                        jQuery
+                      </li>
+                      <li>
+                        SQL
+                      </li>
+                    </ul>
                     <a
                       href="javascript:void(0)"
                       class="
@@ -80,7 +110,7 @@ return (
                       transition
                       "
                       >
-                    View Details
+                    View Websites
                     </a>
                 </div>
               </div>
@@ -109,13 +139,37 @@ return (
                           hover:text-primary
                           "
                           >
-                      The ultimate UX and UI guide to card design
+                      Filmmaker
                       </a>
                     </h3>
                     <p class="text-base text-body-color leading-relaxed mb-7">
                       Lorem ipsum dolor sit amet pretium consectetur adipiscing
                       elit. Lorem consectetur adipiscing elit.
                     </p>
+                    <h4 className="
+                          font-semibold
+                          text-dark text-lg
+                          mb-4
+                          block
+                          ">
+                      Filmmaking Tools
+                    </h4>
+                    <ul className="
+                          
+                          text-dark text-md
+                          mb-4
+                          block
+                          ">
+                      <li>
+                        Adobe Premiere
+                      </li>
+                      <li>
+                        Final Cut Pro                      
+                      </li>
+                      <li>
+                        Adobe Illustrator
+                      </li>
+                    </ul>
                     <a
                       href="javascript:void(0)"
                       class="
@@ -130,7 +184,7 @@ return (
                       transition
                       "
                       >
-                    View Details
+                    View Films
                     </a>
                 </div>
               </div>
@@ -159,13 +213,37 @@ return (
                           hover:text-primary
                           "
                           >
-                      Creative Card Component designs graphic elements
+                      Designer                      
                       </a>
                     </h3>
                     <p class="text-base text-body-color leading-relaxed mb-7">
                       Lorem ipsum dolor sit amet pretium consectetur adipiscing
                       elit. Lorem consectetur adipiscing elit.
                     </p>
+                    <h4 className="
+                          font-semibold
+                          text-dark text-lg
+                          mb-4
+                          block
+                          ">
+                      Design Tools
+                    </h4>
+                    <ul className="
+                          
+                          text-dark text-md
+                          mb-4
+                          block
+                          ">
+                      <li>
+                        Figma
+                      </li>
+                      <li>
+                        Adobe Photoshop
+                      </li>
+                      <li>
+                        Adobe Illustrator
+                      </li>
+                    </ul>
                     <a
                       href="javascript:void(0)"
                       class="
@@ -180,7 +258,7 @@ return (
                       transition
                       "
                       >
-                    View Details
+                    View Designs
                     </a>
                 </div>
               </div>
