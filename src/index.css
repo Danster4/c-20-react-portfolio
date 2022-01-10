@@ -16,6 +16,10 @@ code {
 @tailwind components;
 @tailwind utilities;
 
+.top-gap {
+  min-height: 5vh;
+
+}
 
 #linkedin:hover {
   fill: lime;
@@ -23,6 +27,7 @@ code {
 
 .mainContainer {
   min-height: 85vh;
+  min-width: none;
 }
 
 /* The Overlay (background) */
