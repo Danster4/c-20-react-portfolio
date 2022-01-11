@@ -22,7 +22,10 @@ function Resume() {
 
       <div class="p-6 flex justify-center ">
             
-            <button
+            <a
+            href="../../assets/images/daniel-urkov-resume.pdf"
+            download={"daniel-urkov-resume.pdf"}
+            target="_blank"
             id="resumeButton"
             className=" 
             
@@ -37,7 +40,7 @@ function Resume() {
             transition" 
             type="submit">
               Download Resume
-            </button>
+            </a>
         
             <button
             id="resumeButton"
@@ -59,10 +62,9 @@ function Resume() {
 
 
 
-    <div className="flex flex-wrap overflow-hidden justify-center">
+    <div className="flex flex-wrap overflow-hidden justify-center grid-cols-2">
 
-      <div className=" w-full overflow-hidden flex justify-center items-start lg:pt-10 xl:pt-10">
-        <div>
+      <div className="w-full  overflow-hidden flex justify-center items-start lg:pt-10 xl:pt-10">
         <h2 className='text-white text-3xl mb-6 gap-3'>
           <em>Work Experience</em>
         </h2>
@@ -80,7 +82,9 @@ function Resume() {
           <br />
           Email: danielurkov@gmail.com
         </p>
-        <br />
+      </div>
+
+      <div className="w-full overflow-hidden flex justify-center items-start lg:pt-10 xl:pt-10">
         <h2 className='text-white text-3xl mb-6 gap-3'>
           <em>Languages</em>
         </h2>
@@ -101,7 +105,6 @@ function Resume() {
 
         
         
-        </div>
         
         
       </div>
