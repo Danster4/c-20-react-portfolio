@@ -1,11 +1,17 @@
 {
   "files": {
-    "main.css": "/c-20-react-portfolio/static/css/main.f19a24fa.css",
-    "main.js": "/c-20-react-portfolio/static/js/main.2bcad1f8.js",
+    "main.css": "/c-20-react-portfolio/static/css/main.2b2cf8d1.css",
+    "main.js": "/c-20-react-portfolio/static/js/main.e1593980.js",
     "static/js/787.aee83c71.chunk.js": "/c-20-react-portfolio/static/js/787.aee83c71.chunk.js",
     "static/media/neon-bar-circular.png": "/c-20-react-portfolio/static/media/neon-bar-circular.a4558a8aac1d0b2cbdca.png",
+    "static/media/screencapture-horiseon.PNG": "/c-20-react-portfolio/static/media/screencapture-horiseon.1d2a40c76f47cc4bc2b9.PNG",
+    "static/media/screencapture-run-buddy.PNG": "/c-20-react-portfolio/static/media/screencapture-run-buddy.2135ffd1b74ee73902c5.PNG",
+    "static/media/screencapture-cla.PNG": "/c-20-react-portfolio/static/media/screencapture-cla.c6dbb91ddcf568523c1f.PNG",
+    "static/media/screencapture-superfan.PNG": "/c-20-react-portfolio/static/media/screencapture-superfan.8c77326c61b66f43d9ea.PNG",
     "static/media/profile-pic-circle.png": "/c-20-react-portfolio/static/media/profile-pic-circle.036c816b68cea222a943.png",
     "static/media/resume-jan-2022.svg": "/c-20-react-portfolio/static/media/resume-jan-2022.ff9a23a85f51771a76c8447c78a2da6f.svg",
+    "static/media/screencapture-eleven-eleven.png": "/c-20-react-portfolio/static/media/screencapture-eleven-eleven.44678cec007ea3ef4ea2.png",
+    "static/media/screencapture-note-taker.PNG": "/c-20-react-portfolio/static/media/screencapture-note-taker.28f232dd189c72f2bc2c.PNG",
     "static/media/turtle-svg-logo-2.svg": "/c-20-react-portfolio/static/media/turtle-svg-logo-2.219f7789deb85b1a04ecc8b8460a7196.svg",
     "static/media/turtle-svg-logo-3.svg": "/c-20-react-portfolio/static/media/turtle-svg-logo-3.d32bbd8187b2cf5e48b568afde94e59b.svg",
     "static/media/icons8-stack-overflow.svg": "/c-20-react-portfolio/static/media/icons8-stack-overflow.4c4c96fce47f37dccb2e2f1933e15476.svg",
@@ -13,12 +19,12 @@
     "static/media/icons8-github.svg": "/c-20-react-portfolio/static/media/icons8-github.989e9f98968e317c5e644202407512de.svg",
     "static/media/icons8-linkedin.svg": "/c-20-react-portfolio/static/media/icons8-linkedin.69a4b5c1e9949b98d8aa76ecaa1d5d0a.svg",
     "index.html": "/c-20-react-portfolio/index.html",
-    "main.f19a24fa.css.map": "/c-20-react-portfolio/static/css/main.f19a24fa.css.map",
-    "main.2bcad1f8.js.map": "/c-20-react-portfolio/static/js/main.2bcad1f8.js.map",
+    "main.2b2cf8d1.css.map": "/c-20-react-portfolio/static/css/main.2b2cf8d1.css.map",
+    "main.e1593980.js.map": "/c-20-react-portfolio/static/js/main.e1593980.js.map",
     "787.aee83c71.chunk.js.map": "/c-20-react-portfolio/static/js/787.aee83c71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f19a24fa.css",
-    "static/js/main.2bcad1f8.js"
+    "static/css/main.2b2cf8d1.css",
+    "static/js/main.e1593980.js"
   ]
 }
