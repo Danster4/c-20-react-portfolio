@@ -1,55 +1,70 @@
 import React from 'react';
+import github from '../../assets/images/logos/icons8-github.svg'
+import internet from '../../assets/images/logos/icons8-internet.png'
+import elevenPhoto from '../../assets/images/portfolio-photos/screencapture-eleven-eleven.png'
+import claPhoto from '../../assets/images/portfolio-photos/screencapture-cla.PNG'
+import superFanPhoto from '../../assets/images/portfolio-photos/screencapture-superfan.PNG'
+import runBuddyPhoto from '../../assets/images/portfolio-photos/screencapture-run-buddy.PNG'
+import horiseonPhoto from '../../assets/images/portfolio-photos/screencapture-horiseon.PNG'
+import noteTakerPhoto from '../../assets/images/portfolio-photos/screencapture-note-taker.PNG'
+
 
 function Project() {
 
   const projects = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
+      title: "Eleven:Eleven",
+      subtitle: "JavaScript, Handlebars.js, & Express.js",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "https://via.placeholder.com/250x150.png",
-      link: "https://reactbootcamp.com",
+      image: elevenPhoto,
+      link: "https://murmuring-mesa-60919.herokuapp.com/",
+      github: "https://github.com"
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
+      title: "Community Lenders Alliance",
+      subtitle: "JavaScript, HTML, & CSS",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "https://via.placeholder.com/250x150.png",
-        link: "https://reedbarger.com",
+        image: claPhoto,
+        link: "https://communitylendersalliance.com",
+        github: "https://github.com/Danster4/community-lenders-alliance"
     },
     {
-      title: "DevChat",
-      subtitle: "React and Firebase",
+      title: "SuperFan",
+      subtitle: "JavaScript, HTML, & CSS",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "https://via.placeholder.com/250x150.png",
+        image: superFanPhoto,
         link: "https://jsbootcamp.com",
+        github: "https://github.com"
     },
     {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
+      title: "Run Buddy",
+      subtitle: "HTML & CSS",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "https://via.placeholder.com/250x150.png",
-        link: "https://pythonbootcamp.com",
+        image: runBuddyPhoto,
+        link: "https://danster4.github.io/run-buddy/",
+        github: "https://github.com/Danster4/run-buddy"
     },
     {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
+      title: "Horiseon",
+      subtitle: "HTML & CSS",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "https://via.placeholder.com/250x150.png",
-        link: "https://pythonbootcamp.com",
+        image: horiseonPhoto,
+        link: "https://danster4.github.io/c-1-horiseon/",
+        github: "https://github.com/Danster4/c-1-horiseon"
     },
     {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
+      title: "Note Taker",
+      subtitle: "Express.js, JavaScript, and HTML/CSS",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "https://via.placeholder.com/250x150.png",
-        link: "https://pythonbootcamp.com",
+        image: noteTakerPhoto,
+        link: "https://still-anchorage-18029.herokuapp.com/",
+        github: "https://github.com/Danster4/c-11-note-taker"
     },
   ];
 
@@ -57,9 +72,9 @@ function Project() {
     <div className="flex flex-wrap -m-4">
       {projects.map((project) => (
         <a
-          href={project.link}
+          // href={project.link}
           key={project.image}
-          className="sm:w-1/2 w-100 p-4">
+          className="sm:w-1/2 p-4">
           <div className="flex relative">
             <img
               alt="gallery"
@@ -74,6 +89,17 @@ function Project() {
                 {project.title}
               </h1>
               <p className="leading-relaxed">{project.description}</p>
+              <div className='flex justify-center w-full mt-3'>
+              <a href={project.github} >
+                <img src={github} alt="GitHub logo and link" 
+                className='mx-4 mt-3'/> 
+              </a>
+              <a href={project.link} >
+                <img src={internet} alt="Web browser logo and link" 
+                className='mx-4 mt-3'
+                width="30"/> 
+              </a>
+              </div>
             </div>
           </div>
         </a>

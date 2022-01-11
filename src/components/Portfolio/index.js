@@ -10,9 +10,8 @@ function Portfolio() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            I love designing and developing applications that improve people's lives,
+            either by making their lives easier, happier, or more exciting. View my most recent projects here:
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
