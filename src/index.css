@@ -16,8 +16,8 @@ code {
 @tailwind components;
 @tailwind utilities;
 
-.top-gap {
-  min-height: 5vh;
+.topGap {
+  min-height: 15vh;
 
 }
 
@@ -47,6 +47,10 @@ html, body {
 
 #linkedin:hover {
   fill: lime;
+}
+
+.nav-link-active {
+  color: lightgreen
 }
 
 .mainContainer {
@@ -99,6 +103,11 @@ html, body {
   top: 20px;
   right: 45px;
   font-size: 60px;
+}
+
+
+#resumeSection {
+  background-image: "../assets/images/resume-box-3.svg";
 }
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */

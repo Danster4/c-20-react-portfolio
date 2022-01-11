@@ -45,7 +45,7 @@ function closeNav() {
                 // the current page is set through the handlePageChange props.
                 onClick={() => props.handlePageChange(tab)}
                 className={
-                  props.currentPage === tab ? 'nav-link active' : 'nav-link'
+                  props.currentPage === tab ? 'nav-link-active' : 'nav-link'
                 }
               >
                 {tab}

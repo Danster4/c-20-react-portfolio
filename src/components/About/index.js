@@ -15,7 +15,7 @@ return (
       </h1>
       
       <h2 className="items-center text-white text-xl mx-3">
-        I like to code, <br className='sm:hidden md:hidden lg:hidden xl:hidden'/>film nature/short stories, & <br className='sm:hidden md:hidden lg:hidden xl:hidden'/> sometimes count the stars.
+        I like to code websites, <br className='sm:hidden md:hidden lg:hidden xl:hidden'/>film nature/short stories, & <br className='sm:hidden md:hidden lg:hidden xl:hidden'/> sometimes count the stars.
       </h2>
       <div className="grid place-content-center">
         <img className="flex items-center justify-center mt-8 -mb-10 mx-2 place-content-center" src={profilePicCircle} alt="profile-pic" width="250"/>
@@ -75,7 +75,7 @@ return (
                       </a>
                     </h3>
                     <p class="text-base text-body-color leading-relaxed mb-7">
-                      <strong><em>MERN</em></strong> stack and WordPress <br /> HTML5, CSS3, JavaScript, jQuery, SQL
+                      <strong><em>MERN</em></strong> stack and WordPress <br /> HTML5, CSS3, JavaScript,<br className='sm:hidden md:hidden lg:hidden xl:hidden'/> jQuery, JSX, SQL
                     </p>
                     <h4 className="
                           font-semibold
