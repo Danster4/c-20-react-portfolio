@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/c-20-react-portfolio/static/css/main.08a214ce.css",
-    "main.js": "/c-20-react-portfolio/static/js/main.a289bc10.js",
+    "main.css": "/c-20-react-portfolio/static/css/main.29bf4d31.css",
+    "main.js": "/c-20-react-portfolio/static/js/main.8683fedb.js",
     "static/js/787.aee83c71.chunk.js": "/c-20-react-portfolio/static/js/787.aee83c71.chunk.js",
     "static/media/neon-bar-circular.png": "/c-20-react-portfolio/static/media/neon-bar-circular.a4558a8aac1d0b2cbdca.png",
     "static/media/profile-pic-circle.png": "/c-20-react-portfolio/static/media/profile-pic-circle.036c816b68cea222a943.png",
+    "static/media/resume-jan-2022.svg": "/c-20-react-portfolio/static/media/resume-jan-2022.ff9a23a85f51771a76c8447c78a2da6f.svg",
     "static/media/turtle-svg-logo-2.svg": "/c-20-react-portfolio/static/media/turtle-svg-logo-2.219f7789deb85b1a04ecc8b8460a7196.svg",
     "static/media/turtle-svg-logo-3.svg": "/c-20-react-portfolio/static/media/turtle-svg-logo-3.d32bbd8187b2cf5e48b568afde94e59b.svg",
     "static/media/icons8-stack-overflow.svg": "/c-20-react-portfolio/static/media/icons8-stack-overflow.4c4c96fce47f37dccb2e2f1933e15476.svg",
+    "static/media/resume-boxes-3.svg": "/c-20-react-portfolio/static/media/resume-boxes-3.99eddb63251bf77ac3c08ef109e771fd.svg",
     "static/media/icons8-github.svg": "/c-20-react-portfolio/static/media/icons8-github.989e9f98968e317c5e644202407512de.svg",
     "static/media/icons8-linkedin.svg": "/c-20-react-portfolio/static/media/icons8-linkedin.69a4b5c1e9949b98d8aa76ecaa1d5d0a.svg",
     "index.html": "/c-20-react-portfolio/index.html",
-    "main.08a214ce.css.map": "/c-20-react-portfolio/static/css/main.08a214ce.css.map",
-    "main.a289bc10.js.map": "/c-20-react-portfolio/static/js/main.a289bc10.js.map",
+    "main.29bf4d31.css.map": "/c-20-react-portfolio/static/css/main.29bf4d31.css.map",
+    "main.8683fedb.js.map": "/c-20-react-portfolio/static/js/main.8683fedb.js.map",
     "787.aee83c71.chunk.js.map": "/c-20-react-portfolio/static/js/787.aee83c71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08a214ce.css",
-    "static/js/main.a289bc10.js"
+    "static/css/main.29bf4d31.css",
+    "static/js/main.8683fedb.js"
   ]
 }
