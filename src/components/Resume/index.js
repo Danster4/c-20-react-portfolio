@@ -20,7 +20,7 @@ function Resume() {
 
       <div class="p-6 flex justify-center ">
             <a
-            href="../../src/assets/daniel-urkov-resume.pdf"
+            href="/c-20-react-portfolio/src/assets/daniel-urkov-resume.pdf"
             download={"daniel-urkov-resume.pdf"}
             target="_blank"
             id="resumeButton"
