@@ -28,7 +28,8 @@ function closeNav() {
   return (
     <nav className="flex items-center justify-between flex-wrap bg-slate-800 p-6">
       <div className="flex items-left justify-between flex-shrink-0 text-white hover:text-lime-400 mr-6">
-        <a href="/" className="flex">
+        
+        <a href="#about" className="flex" onClick={() => props.handlePageChange('about')}>
           <img src={logo3} alt="logo" width="54" className="pl-2"/>
           <span className="pl-2 font-semibold text-xl ">Danny Urkov</span>
         </a> 
