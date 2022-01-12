@@ -1,7 +1,5 @@
 import React from 'react';
-import logo2 from '../../assets/images/logos/turtle-svg-logo-2.svg';
-import resume from '../../assets/images/resume-jan-2022.svg'
-import boxes3 from '../../assets/images/resume-boxes-3.svg'
+import logo2 from '../../assets/images/logos/turtle-svg-logo-2.svg'
 
 
 function Resume() {
@@ -21,17 +19,14 @@ function Resume() {
 
 
       <div class="p-6 flex justify-center ">
-            
             <a
-            href="../../assets/images/daniel-urkov-resume.pdf"
+            href="../../daniel-urkov-resume.pdf"
             download={"daniel-urkov-resume.pdf"}
             target="_blank"
             id="resumeButton"
             className=" 
-            
             py-3
             px-7
-            mr-5
             border border-[#E5E7EB]
             rounded-full
             text-white
@@ -41,23 +36,6 @@ function Resume() {
             type="submit">
               Download
             </a>
-        
-            <button
-            id="resumeButton"
-            className=" 
-            
-            py-3
-            px-7
-            ml-5
-            border border-[#E5E7EB]
-            rounded-full
-            text-white
-            font-medium
-            hover:border-orange-400 hover:bg-orange-800 hover:text-white
-            transition" 
-            type="submit">
-              Preview
-            </button>
         </div>
 
     <div class="flex flex-wrap -mx-px overflow-hidden xl:-mx-10">
@@ -132,6 +110,8 @@ function Resume() {
           JSX
           <br />
           SQL
+          <br />
+          GraphQL
         </p>
         <br /> 
         <h2 className='text-white text-3xl'>
@@ -152,6 +132,8 @@ function Resume() {
           GitHub
           <br />
           Insomnia
+          <br />
+          MySQL
           <br />
           Jest
         </p>

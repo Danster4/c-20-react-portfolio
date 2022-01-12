@@ -14,7 +14,7 @@ function Portfolio() {
             either by making their lives easier, happier, or more exciting. View my most recent projects here:
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap mx-auto">
           <Project />
         </div>
       </div>

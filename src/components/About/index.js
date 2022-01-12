@@ -5,7 +5,7 @@ import design from '../../assets/images/design.png';
 
 function About() {
 return (
-  <div className='bg-green-800'>
+  <div className='bg-slate-800'>
     <div className='lg:[top-gap]'>
 
     </div>
@@ -27,7 +27,7 @@ return (
     <section class="pt-[90px] sm:pt-[90px] md:pt-[90px] lg:pt-[90px] pb-10 lg:pb-20 bg-[#F3F4F6] gap-2">
       <div class="gap-2 grid flex justify-center place-content center">
         <h1 className="items-center font-semibold text-black text-3xl mb-6 mx-3">
-          Hello, I'm Danny Urkov. Nice to meet you!
+          Hello, I'm Danny Urkov.<br className='sm:hidden md:hidden lg:hidden xl:hidden'/> Nice to meet you!
         </h1>
         <div class="gap-2 flex justify-center place-content-center">
           <div className='hidden lg:w-1/4 xl:w-1/4'>
@@ -75,7 +75,7 @@ return (
                       </a>
                     </h3>
                     <p class="text-base text-body-color leading-relaxed mb-7">
-                      <strong><em>MERN</em></strong> stack and WordPress <br /> HTML5, CSS3, JavaScript,<br className='sm:hidden md:hidden lg:hidden xl:hidden'/> jQuery, JSX, SQL
+                      <strong><em>MERN</em></strong> stack and WordPress <br /> HTML5, CSS3, JavaScript,<br className='sm:hidden md:hidden lg:hidden xl:hidden'/> jQuery, JSX, SQL, GraphQL
                     </p>
                     <h4 className="
                           font-semibold
@@ -115,7 +115,9 @@ return (
                       <li className='w-1/2 lg:w-1/3 xl:w-1/3 overflow-hidden'>
                         Insomnia
                       </li>
-                      
+                      <li className='w-1/2 lg:w-1/3 xl:w-1/3 overflow-hidden'>
+                        MySQL
+                      </li>
                       <li className='w-1/2 lg:w-1/3 xl:w-1/3 overflow-hidden'>
                         Jest
                       </li>
@@ -168,8 +170,8 @@ return (
                       </a>
                     </h3>
                     <p class="text-base text-body-color leading-relaxed mb-7">
-                      Lorem ipsum dolor sit amet pretium consectetur adipiscing
-                      elit. Lorem consectetur adipiscing elit.
+                      Documentary & Short Story form Filmmaker <br />
+                      Always looking to share a good story that needs to be heard 
                     </p>
                     <h4 className="
                           font-semibold
@@ -242,8 +244,7 @@ return (
                       </a>
                     </h3>
                     <p class="text-base text-body-color leading-relaxed mb-7">
-                      Lorem ipsum dolor sit amet pretium consectetur adipiscing
-                      elit. Lorem consectetur adipiscing elit.
+                      Website designs, logos, presentation material, & more <br /> I enjoy creating visual components are clean, fresh, and exciting
                     </p>
                     <h4 className="
                           font-semibold
