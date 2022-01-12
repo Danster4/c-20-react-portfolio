@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/c-20-react-portfolio/static/css/main.c97ae8ca.css",
-    "main.js": "/c-20-react-portfolio/static/js/main.cff60ecd.js",
+    "main.js": "/c-20-react-portfolio/static/js/main.576b7aab.js",
     "static/js/787.aee83c71.chunk.js": "/c-20-react-portfolio/static/js/787.aee83c71.chunk.js",
     "static/media/neon-bar-circular.png": "/c-20-react-portfolio/static/media/neon-bar-circular.a4558a8aac1d0b2cbdca.png",
     "static/media/screencapture-horiseon.PNG": "/c-20-react-portfolio/static/media/screencapture-horiseon.1d2a40c76f47cc4bc2b9.PNG",
@@ -18,11 +18,11 @@
     "static/media/icons8-linkedin.svg": "/c-20-react-portfolio/static/media/icons8-linkedin.69a4b5c1e9949b98d8aa76ecaa1d5d0a.svg",
     "index.html": "/c-20-react-portfolio/index.html",
     "main.c97ae8ca.css.map": "/c-20-react-portfolio/static/css/main.c97ae8ca.css.map",
-    "main.cff60ecd.js.map": "/c-20-react-portfolio/static/js/main.cff60ecd.js.map",
+    "main.576b7aab.js.map": "/c-20-react-portfolio/static/js/main.576b7aab.js.map",
     "787.aee83c71.chunk.js.map": "/c-20-react-portfolio/static/js/787.aee83c71.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c97ae8ca.css",
-    "static/js/main.cff60ecd.js"
+    "static/js/main.576b7aab.js"
   ]
 }
